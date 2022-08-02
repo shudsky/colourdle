@@ -4,13 +4,13 @@
 :root
 {
 	/*Colour palette:*/
-	--col:#000000;
-	--inputRect1:#000000;
-	--inputRect2:#000000;
-	--inputRect3:#000000;
-	--inputRect4:#000000;
-	--inputRect5:#000000;
-	--arrow: pink;
+	--col: #000000;
+	--inputRect1: #ffffff;
+	--inputRect2: #ffffff;
+	--inputRect3: #ffffff;
+	--inputRect4: #ffffff;
+	--inputRect5: #ffffff;
+	--arrow: #ffc1b8;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*Specific Ids*/
@@ -159,6 +159,7 @@
 	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 	cursor: pointer;
+	border-radius: 3px;
 
 }
 
@@ -166,6 +167,7 @@
 {
 	/*border-style: 0px;*/
 	background-color: red;
+
 }
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*Specific Classes*/
@@ -197,8 +199,8 @@
 	line-height: 40px;
 	height: 40px;
 	width: 85px;
-	background-color: salmon;
-	border: 3px solid salmon;
+	background-color: #ff7b6b;
+	border: 3px solid #ff7b6b;
 	font-size: 25px;
 	vertical-align: middle;
 	font-family: 'Rubik', sans-serif;

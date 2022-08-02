@@ -7,6 +7,7 @@
 		<title>Colourdle</title>
 	</head>
 	<body>
+		<!-- Input boxes -->
 		<div id="rectangle"></div>
 		<br>
 		<form class="inputChance">
@@ -40,32 +41,13 @@
 			<div id="inputRectangle5"></div>
 		</form>
 		<div id="answer"></div>
-		<!-- <br>
-		<form class="form">
-			<input class="colourInput" id="redInput" type="number" min="0" max="255" required="true" name="R"><span id="arrowR"></span>
-			<input class="colourInput" id="greenInput" type="number" min="0" max="255" required="true" name="G"><span id="arrowG"></span>
-			<input class="colourInput" id="blueInput" type="number" min="0" max="255" required="true" name="B"><span id="arrowB"></span>
-			<div id="inputRectangle"></div>
-		</form>
-		<br>
-		<form class="form">
-			<input class="colourInput" id="redInput" type="number" min="0" max="255" required="true" name="R"><span id="arrowR"></span>
-			<input class="colourInput" id="greenInput" type="number" min="0" max="255" required="true" name="G"><span id="arrowG"></span>
-			<input class="colourInput" id="blueInput" type="number" min="0" max="255" required="true" name="B"><span id="arrowB"></span>
-			<div id="inputRectangle"></div>
-		</form> -->
-
-
-		<!-- <br> -->
-		<!-- <button onclick="randomizeColour()">Randomize Colour</button> -->
-
+		
+		<!-- User input box -->
 		<form id="userInput">
 			<input class="colourInput" id="redInput" type="number" min="0" max="255" required="true" name="R" autofocus="true">
 			<input class="colourInput" id="greenInput" type="number" min="0" max="255" required="true" name="G">
 			<input class="colourInput" id="blueInput" type="number" min="0" max="255" required="true" name="B">
 			<input id="submitButton" type="button" onclick="moveInputColour()" value="Check">
 		</form>
-
-
 	</body>
 </html>
