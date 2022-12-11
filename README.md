@@ -1,2 +1,2 @@
 # colourdle
-Wordle but with RGB colours!
+Wordle, but with RGB colours!
